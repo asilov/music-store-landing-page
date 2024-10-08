@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100vh;
+}
+/* header section */
+header {
+    background: #1F2937;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    font-size: 18px;
+    list-style: none;
+}
+
+li a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+/* hero section */
+
+.hero-section {
+    background: #1F2937;
+    display: flex;
+}
