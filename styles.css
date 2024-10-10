@@ -124,3 +124,28 @@ li a {
     margin-top: 15px;
     text-align: center;
 }
+
+/* quote section */
+
+.quote-section {
+    background: #E5E7EB;
+    height: 400px;
+}
+
+blockquote {
+    width: 800px;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.quote-text {
+    font-size: 35px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: 800;
+    float: right;
+}
