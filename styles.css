@@ -193,3 +193,15 @@ blockquote {
     font-weight: 900;
     font-size: 18px;
 }
+
+/* footer section */
+
+footer {
+    background: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
