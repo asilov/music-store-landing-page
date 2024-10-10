@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -148,4 +149,47 @@ blockquote {
     font-size: 20px;
     font-weight: 800;
     float: right;
+}
+
+/* sign up section */
+
+.sign-up-section {
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-box {
+    width: 1000px;
+    height: 150px;
+    background: #3882F6;
+    padding: 25px 100px;
+    border-radius: 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up-header {
+    font-size: 26px;
+    /* color: white; */
+}
+
+.sign-up-box p {
+    color: #E5E7EB;
+}
+
+.sign-up-box button {
+    width: 110px;
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 5px 15px;
+    height: 35px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
 }
